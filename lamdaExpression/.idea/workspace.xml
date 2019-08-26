@@ -34,7 +34,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLamda1">
+  <component name="RunManager" selected="Application.ByLamda">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hashanthi.lamda.example1.Application" />
+      <module name="lamdaExpression" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hashanthi.lamda.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hashanthi.lamda.example1.Application2" />
+      <module name="lamdaExpression" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hashanthi.lamda.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ByLamda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hashanthi.lamda.example1.ByLamda" />
+      <module name="lamdaExpression" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hashanthi.lamda.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestLamda1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestLamda1" />
       <module name="lamdaExpression" />
@@ -51,6 +90,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByLamda" />
+        <item itemvalue="Application.Application2" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.TestLamda1" />
         <item itemvalue="Application.textPointer" />
       </list>
