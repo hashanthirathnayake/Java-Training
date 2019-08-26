@@ -31,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SortByStream">
     <configuration name="Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Filter" />
       <module name="sream1" />
@@ -39,8 +39,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortByStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortByStream" />
+      <module name="sream1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortByStream" />
         <item itemvalue="Application.Filter" />
       </list>
     </recent_temporary>
