@@ -1,0 +1,20 @@
+security:
+  oauth2:
+    client:
+      client-id: root
+      client-secret: pwd
+      user-authorization-uri: http://localhost:8282/oauth/authorize
+      access-token-uri: http://localhost:8282/oauth/token
+    resource:
+      token-info-uri: http://localhost:8282/oauth/check_token
+server:
+  port: 8281
+  servlet:
+    session:
+      cookie:
+        name: BSESSION
+
+
+
+
+
