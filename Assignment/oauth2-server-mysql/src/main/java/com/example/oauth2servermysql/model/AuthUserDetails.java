@@ -1,5 +1,6 @@
 package com.example.oauth2servermysql.model;
 
+import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -8,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+@Data
 public class AuthUserDetails extends User implements UserDetails {
     public AuthUserDetails() {
     }
@@ -27,6 +29,8 @@ public class AuthUserDetails extends User implements UserDetails {
         });
         return grantedAuthorities;
     }
+
+
 
     @Override
     public String getPassword() {
